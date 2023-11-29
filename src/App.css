@@ -1,0 +1,80 @@
+body {
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 21em;
+}
+
+.atividade {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add {
+  width: 300px;
+  border-radius: 25px;
+  background-color: rgb(91, 1, 194);
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 44em;
+}
+
+.list {
+  padding: 5px;
+  border: 1px solid grey;
+  margin-right: 10px;
+  width: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+td{
+  vertical-align: top;
+  font-size: 20px;
+}
+
+.concluir {
+  background-color: red;
+}
+
+.removee {
+  background-color: rgb(143, 0, 0);
+}
+
+.title{
+   position: relative;
+   font-size: 30px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center > td:first-child {
+  margin-right: 20px;
+} 
+
+.input {
+width: 950px;
+height: 45px;
+font-size: 20px;
+margin-left: 19em;
+}
+
+.all{
+ margin-bottom: 700px;
+}
+
+.home{
+  margin-left: 15.2em;
+}
